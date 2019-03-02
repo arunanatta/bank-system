@@ -8,7 +8,7 @@ var db = null;
 
 app.use(bodyParser.json());
 
-const port = 3000;
+const port = 1234;
 
 
 MongoClient.connect(url, function(err, db1) {
